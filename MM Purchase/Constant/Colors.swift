@@ -9,30 +9,15 @@ import Foundation
 import UIKit
 
 struct Colors{
-    static let appColor:String = "#13A89E"
-    static let actionButtonColor:String = "#13A89E"
-    static let border_color_gray:String = "#B9B9B9"
-    static let divider_color_gray:String = "#f0f0f0"
-    static let editable_color_gray:String = "#c7d0cc"
-    
-    
-    static let basic_blue:String = "#1890FF"
-    static let standard_green:String = "#12A89E"
-    static let premium_orance:String = "#FF6F00"
-    
-    static let textfield_background = "#ededed"
-    static let textfield_text_color = "#545454"
-    static let button_background = "#00A1B0"
-    static let popup_textview_color = "#0064b1"
-    static let product_name_background = "#0064b1"
-    static let arrow_color = "#939393"
-    static let primary_bg = "#f9f9f9"
-    static let product_header_bg = "#faffff"
-    static let product_material_bg = "#ededed"
-    static let suggested_item_bg = "#007783"
-    
-    static let online = "#00FF00"
-    static let offline = "#808080"
+    static let text_color_one:String = "#FFFFFF"
+    static let text_color_two:String = "#D0DBE9"
+    static let text_color_three:String = "#D4E5FA"
+    static let text_color_four:String = "#778396"
+    static let premium_button_turquoise:String = "#17D8F2"
+    static let premium_button_tur:String = "#0B6EEB"
+    static let primary_bg = "#031429"
+    static let view_borderColor = "#D0DBE9"
+
 }
 
 extension String{
