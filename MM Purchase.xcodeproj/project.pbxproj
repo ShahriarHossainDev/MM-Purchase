@@ -24,6 +24,8 @@
 		FA0E60E029D9787F00B8FD08 /* Inter-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA0E60D829D9787F00B8FD08 /* Inter-Bold.otf */; };
 		FA0E60E129D9787F00B8FD08 /* Inter-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA0E60D929D9787F00B8FD08 /* Inter-Medium.otf */; };
 		FA0E60E529D9868600B8FD08 /* Extenstions+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0E60E429D9868600B8FD08 /* Extenstions+UIView.swift */; };
+		FA764C4129DA7F0B00A257C3 /* PurchaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA764C3F29DA7F0B00A257C3 /* PurchaseTableViewCell.swift */; };
+		FA764C4229DA7F0B00A257C3 /* PurchaseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA764C4029DA7F0B00A257C3 /* PurchaseTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		FA0E60D829D9787F00B8FD08 /* Inter-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.otf"; sourceTree = "<group>"; };
 		FA0E60D929D9787F00B8FD08 /* Inter-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.otf"; sourceTree = "<group>"; };
 		FA0E60E429D9868600B8FD08 /* Extenstions+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extenstions+UIView.swift"; sourceTree = "<group>"; };
+		FA764C3F29DA7F0B00A257C3 /* PurchaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseTableViewCell.swift; sourceTree = "<group>"; };
+		FA764C4029DA7F0B00A257C3 /* PurchaseTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PurchaseTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +114,7 @@
 		FA0E60C329D970BA00B8FD08 /* Serecns */ = {
 			isa = PBXGroup;
 			children = (
+				FA764C3E29DA7ECD00A257C3 /* Custom View */,
 				FA0E60C729D970F300B8FD08 /* Purchase */,
 			);
 			path = Serecns;
@@ -188,6 +193,15 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		FA764C3E29DA7ECD00A257C3 /* Custom View */ = {
+			isa = PBXGroup;
+			children = (
+				FA764C3F29DA7F0B00A257C3 /* PurchaseTableViewCell.swift */,
+				FA764C4029DA7F0B00A257C3 /* PurchaseTableViewCell.xib */,
+			);
+			path = "Custom View";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -254,6 +268,7 @@
 				FA0E60BA29D9706700B8FD08 /* LaunchScreen.storyboard in Resources */,
 				FA0E60B729D9706700B8FD08 /* Assets.xcassets in Resources */,
 				FA0E60B529D9706500B8FD08 /* Main.storyboard in Resources */,
+				FA764C4229DA7F0B00A257C3 /* PurchaseTableViewCell.xib in Resources */,
 				FA0E60DA29D9787F00B8FD08 /* Inter-SemiBold.otf in Resources */,
 				FA0E60DF29D9787F00B8FD08 /* Inter-Regular.otf in Resources */,
 				FA0E60DD29D9787F00B8FD08 /* Inter-ExtraBold.otf in Resources */,
@@ -272,6 +287,7 @@
 				FA0E60D029D9745C00B8FD08 /* Strings.swift in Sources */,
 				FA0E60AE29D9706500B8FD08 /* AppDelegate.swift in Sources */,
 				FA0E60B029D9706500B8FD08 /* SceneDelegate.swift in Sources */,
+				FA764C4129DA7F0B00A257C3 /* PurchaseTableViewCell.swift in Sources */,
 				FA0E60E529D9868600B8FD08 /* Extenstions+UIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
