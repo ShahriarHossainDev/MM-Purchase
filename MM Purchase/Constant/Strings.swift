@@ -17,7 +17,7 @@ struct Strings{
     static let billed_three = "3-Days free trial then $13.49 / year"
     static let one_month = "1 Month"
     static let one_year = "1 Year"
-    static let dummy = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    static let dummy = "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     static let terms_of_use = "Terms of use"
     static let privacy_policy = "Privacy policy"
 }

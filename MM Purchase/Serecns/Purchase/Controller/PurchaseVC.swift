@@ -64,15 +64,15 @@ class PurchaseVC: UIViewController {
     
     // MARK: - IBAction
     @IBAction func yearButtonAction(_ sender: UIButton) {
-        print("yearButtonAction")
+        self.yearView.viewPulse()
     }
     
     @IBAction func monthButtonAction(_ sender: UIButton) {
-        print("monthButtonAction")
+        self.monthView.viewPulse()
     }
     
     @IBAction func lifeTimeButtonAction(_ sender: UIButton) {
-        print("lifeTimeButtonAction")
+        self.lifeTime.viewPulse()
     }
     
     
