@@ -155,12 +155,13 @@ extension PurchaseVC: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier) as? PurchaseTableViewCell {
-            
             return cell
         }
         
         return UITableViewCell()
     }
-    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 34
+    }
     
 }
