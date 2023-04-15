@@ -22,7 +22,7 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="sC5-eu-y1p">
-                        <rect key="frame" x="76" y="8" width="168" height="18"/>
+                        <rect key="frame" x="10" y="8" width="300" height="18"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rightMark" translatesAutoresizingMaskIntoConstraints="NO" id="qt2-5N-8lD">
                                 <rect key="frame" x="0.0" y="0.0" width="18" height="18"/>
@@ -32,7 +32,7 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Featured item no 1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ytm-Nu-feq">
-                                <rect key="frame" x="28" y="0.0" width="140" height="18"/>
+                                <rect key="frame" x="28" y="0.0" width="272" height="18"/>
                                 <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="16"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -42,8 +42,9 @@
                 </subviews>
                 <color key="backgroundColor" red="0.01176470588" green="0.078431372550000003" blue="0.16078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 <constraints>
-                    <constraint firstItem="sC5-eu-y1p" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="Cao-va-0Zj"/>
-                    <constraint firstItem="sC5-eu-y1p" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="SEx-ae-apa"/>
+                    <constraint firstAttribute="trailing" secondItem="sC5-eu-y1p" secondAttribute="trailing" constant="10" id="KJI-mO-gza"/>
+                    <constraint firstItem="sC5-eu-y1p" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="dMj-bA-cEL"/>
+                    <constraint firstItem="sC5-eu-y1p" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="vUp-ZG-FP1"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
